@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GameApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<% if current_user %>
+    <li><%= link_to 'Sign Out', '/users/sign_out', method: :delete %></li>
+  <% else %>
+    <li><%= link_to 'Sign In', '/users/sign_in' %></li>
+    <li><%= link_to 'Sign Up', '/users/sign_up' %></li>
+  <% end %>
+<%= yield %>
+
+</body>
+</html>
