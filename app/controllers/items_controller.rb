@@ -1,6 +1,8 @@
 class ItemsController < ApplicationController
   def index
-    @items = Item.all
+    selected_character = params[:selected_character]
+
+    @items = current_user.games.find_by(character_id: selected_character).character.items
   end
 
   def show

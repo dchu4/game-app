@@ -1,5 +1,11 @@
 <h1>These are the characters:</h1>
 
 <% @user_characters.each do |character| %>
-  <h2><%= character.character_class %></h2>
+  <h2><%= link_to "Character Link", "/boards/1?selected_character=#{character.id}" %></h2>
+  <h2>Name: <%= character.character_name %></h2>
+  <h2>Class: <%= character.character_class %></h2>
+  <%= link_to 'DELETE', "/characters/#{character.id}", method: :delete %>
+  <br>
 <% end %>
+
+<%= link_to 'Create a character', '/characters/new' %>

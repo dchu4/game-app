@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   post '/characters' => 'characters#create'
 
   get '/characters/:id' => 'characters#show'
+
+  delete '/characters/:id' => 'characters#destroy'
 #############################################
 
   get '/items' => 'items#index'
@@ -16,6 +18,6 @@ Rails.application.routes.draw do
 #############################################
 
   get '/boards' => 'boards#index'
-  get '/boards' => 'boards#show'
+  get '/boards/:id' => 'boards#show'
 
 end

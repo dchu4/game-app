@@ -61,6 +61,56 @@
 #   game_id: 1,
 #   board_id: 5
 #   )
+# GameBoard.create(
+#   game_id: 1,
+#   board_id: 2
+#   )
+# GameBoard.create(
+#   game_id: 1,
+#   board_id: 4
+#   )
+
+# GameBoard.create(
+#   game_id: 2,
+#   board_id: 1
+#   )
+# GameBoard.create(
+#   game_id: 2,
+#   board_id: 2
+#   )
+# GameBoard.create(
+#   game_id: 2,
+#   board_id: 4
+#   )
+# GameBoard.create(
+#   game_id: 2,
+#   board_id: 3
+#   )
+# GameBoard.create(
+#   game_id: 2,
+#   board_id: 5
+#   )
+
+# GameBoard.create(
+#   game_id: 3,
+#   board_id: 1
+# )
+# GameBoard.create(
+#   game_id: 3,
+#   board_id: 2
+# )
+# GameBoard.create(
+#   game_id: 3,
+#   board_id: 4
+#   )
+# GameBoard.create(
+#   game_id: 3,
+#   board_id: 3
+#   )
+# GameBoard.create(
+#   game_id: 3,
+#   board_id: 5
+#   )
 
 # Board.create(
 #   tile_1: "Board 1",

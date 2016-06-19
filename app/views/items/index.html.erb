@@ -1,1 +1,6 @@
-index.html.erb
+<h1>Character Inventory</h1>
+
+
+<% @items.each do |item| %>
+<h2><%= link_to item.name, "/items/#{item.id}" %></h2>
+<% end %>
