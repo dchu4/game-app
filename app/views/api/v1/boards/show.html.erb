@@ -1,0 +1,10 @@
+<h1>Current Game Board</h1>
+
+<h2><%= @current_board.tile_1 %> <%= @current_board.tile_2 %> <%= @current_board.tile_3 %> <%= @current_board.tile_4 %></h2>
+<br>
+<h2>Name: <%= link_to @user_character.character_name, "/characters/#{@user_character.id}" %></h2>
+<h2>Class: <%= @user_character.character_class %></h2>
+
+<h2><%= link_to 'Character Inventory', "/items?selected_character=#{@user_character.id}" %></h2>
+
+<!-- <h2><%= @user_character.items.first(10) %></h2> -->

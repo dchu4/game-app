@@ -739,3 +739,137 @@
 #   item_id: 7
 #   )
 
+# CharacterItem.create(
+#   character_id: 2,
+#   item_id: 1
+#   )
+
+# CharacterItem.create(
+#   character_id: 2,
+#   item_id: 2
+#   )
+
+# CharacterItem.create(
+#   character_id: 2,
+#   item_id: 3
+#   )
+
+# CharacterItem.create(
+#   character_id: 2,
+#   item_id: 4
+#   )
+
+# CharacterItem.create(
+#   character_id: 2,
+#   item_id: 5
+#   )
+
+# CharacterItem.create(
+#   character_id: 2,
+#   item_id: 6
+#   )
+
+# CharacterItem.create(
+#   character_id: 2,
+#   item_id: 7
+#   )
+
+# CharacterItem.create(
+#   character_id: 3,
+#   item_id: 1
+#   )
+
+# CharacterItem.create(
+#   character_id: 3,
+#   item_id: 2
+#   )
+
+# CharacterItem.create(
+#   character_id: 3,
+#   item_id: 3
+#   )
+
+# CharacterItem.create(
+#   character_id: 3,
+#   item_id: 4
+#   )
+
+# CharacterItem.create(
+#   character_id: 3,
+#   item_id: 5
+#   )
+
+# CharacterItem.create(
+#   character_id: 3,
+#   item_id: 6
+#   )
+
+# CharacterItem.create(
+#   character_id: 3,
+#   item_id: 7
+#   )
+
+# CharacterItem.create(
+#   character_id: 4,
+#   item_id: 1
+#   )
+
+# CharacterItem.create(
+#   character_id: 4,
+#   item_id: 2
+#   )
+
+# CharacterItem.create(
+#   character_id: 4,
+#   item_id: 3
+#   )
+
+# CharacterItem.create(
+#   character_id: 4,
+#   item_id: 4
+#   )
+
+# CharacterItem.create(
+#   character_id: 4,
+#   item_id: 5
+#   )
+
+# CharacterItem.create(
+#   character_id: 4,
+#   item_id: 6
+#   )
+
+# CharacterItem.create(
+#   character_id: 4,
+#   item_id: 7
+#   )
+
+
+# CharacterItem.find(1).update(quantity: 10)
+# CharacterItem.find(2).update(quantity: 10)
+# CharacterItem.find(3).update(quantity: 10)
+# CharacterItem.find(4).update(quantity: 10)
+# CharacterItem.find(5).update(quantity: 10)
+# CharacterItem.find(6).update(quantity: 10)
+# CharacterItem.find(7).update(quantity: 10)
+# CharacterItem.find(8).update(quantity: 10)
+# CharacterItem.find(9).update(quantity: 10)
+# CharacterItem.find(10).update(quantity: 10)
+# CharacterItem.find(11).update(quantity: 10)
+# CharacterItem.find(12).update(quantity: 10)
+# CharacterItem.find(13).update(quantity: 10)
+# CharacterItem.find(14).update(quantity: 10)
+# CharacterItem.find(15).update(quantity: 10)
+# CharacterItem.find(16).update(quantity: 10)
+# CharacterItem.find(17).update(quantity: 10)
+# CharacterItem.find(18).update(quantity: 10)
+# CharacterItem.find(19).update(quantity: 10)
+# CharacterItem.find(20).update(quantity: 10)
+# CharacterItem.find(21).update(quantity: 10)
+# CharacterItem.find(22).update(quantity: 10)
+# CharacterItem.find(23).update(quantity: 10)
+# CharacterItem.find(24).update(quantity: 10)
+# CharacterItem.find(25).update(quantity: 10)
+# CharacterItem.find(26).update(quantity: 10)
+# CharacterItem.find(27).update(quantity: 10)
+# CharacterItem.find(28).update(quantity: 10)

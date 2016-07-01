@@ -1,4 +1,4 @@
-class CharactersController < ApplicationController
+class Api::V1::CharactersController < ApplicationController
   def index
     @user_characters = Character.all
   end
