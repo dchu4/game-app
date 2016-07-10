@@ -1,5 +1,0 @@
-<h1>Character Inventory</h1>
-
-<% @character_items.each do |item| %>
-  <h2><%= link_to item.name, "/items/#{item.id}" %> x <%= item.character_items.find_by(character_id: @selected_character).quantity %></h2>
-<% end %>

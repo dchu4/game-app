@@ -1,1 +1,0 @@
-json.array! @user_characters, partial: 'character', as: :character

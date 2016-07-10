@@ -23,11 +23,4 @@ Rails.application.routes.draw do
   get '/boards' => 'boards#index'
   get '/boards/:id' => 'boards#show'
 
-  namespace :api do
-    namespace :v1 do
-      get '/characters' => 'characters#index'
-      post '/characters' => 'characters#create'
-      get '/characters/:id' => 'characters#show'
-    end
-  end
 end
