@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160620022928) do
+ActiveRecord::Schema.define(version: 20160714012429) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -152,6 +152,8 @@ ActiveRecord::Schema.define(version: 20160620022928) do
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
     t.string   "character_name"
+    t.boolean  "alive"
+    t.integer  "hp"
   end
 
   create_table "game_boards", force: :cascade do |t|
@@ -169,16 +171,7 @@ ActiveRecord::Schema.define(version: 20160620022928) do
   end
 
   create_table "items", force: :cascade do |t|
-    t.string   "item_type"
-    t.string   "cure_status"
-    t.integer  "attack"
-    t.integer  "defense"
-    t.integer  "magic_attack"
-    t.integer  "magic_defense"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
-    t.integer  "recovery_amount"
-    t.string   "name"
+     
   end
 
   create_table "users", force: :cascade do |t|
