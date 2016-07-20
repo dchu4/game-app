@@ -29,39 +29,39 @@
 
 # Character.create(character_class: "Warrior", attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "Helm", l_hand: "L Hand", r_hand: "R Hand", body_armor: "Body Armor", gloves: "Gloves", shoes: "Shoes", leg_armor: "Leg Armor", is_npc: false)
 
-Character.create(character_name:"Green Slime" ,character_class: "Ooze", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 1)
+# Character.create(character_name:"Green Slime" ,character_class: "Ooze", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 1)
 
-Character.create(character_name:"Green Slime" ,character_class: "Ooze", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 1)
+# Character.create(character_name:"Green Slime" ,character_class: "Ooze", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 1)
 
-Character.create(character_name:"Green Slime" ,character_class: "Ooze", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 1)
+# Character.create(character_name:"Green Slime" ,character_class: "Ooze", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 1)
 
-Character.create(character_name:"Red Slime" ,character_class: "Ooze", hp: 250, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 2)
+# Character.create(character_name:"Red Slime" ,character_class: "Ooze", hp: 250, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 2)
 
-Character.create(character_name:"Red Slime" ,character_class: "Ooze", hp: 250, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 2)
+# Character.create(character_name:"Red Slime" ,character_class: "Ooze", hp: 250, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 2)
 
-Character.create(character_name:"Metal Slime" ,character_class: "Ooze", hp: 300, attack: 50, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 2)
+# Character.create(character_name:"Metal Slime" ,character_class: "Ooze", hp: 300, attack: 50, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 2)
 
-Character.create(character_name:"Bat" ,character_class: "Animal", hp: 300, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 3)
+# Character.create(character_name:"Bat" ,character_class: "Animal", hp: 300, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 3)
 
-Character.create(character_name:"Rat" ,character_class: "Animal", hp: 300, attack: 30, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 3)
+# Character.create(character_name:"Rat" ,character_class: "Animal", hp: 300, attack: 30, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 3)
 
-Character.create(character_name:"Wolf" ,character_class: "Animal", hp: 300, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 4)
+# Character.create(character_name:"Wolf" ,character_class: "Animal", hp: 300, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 4)
 
-Character.create(character_name:"Wolf" ,character_class: "Animal", hp: 300, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 4)
+# Character.create(character_name:"Wolf" ,character_class: "Animal", hp: 300, attack: 40, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 4)
 
-Character.create(character_name:"Golem" ,character_class: "Rock", hp: 500, attack: 60, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 5)
+# Character.create(character_name:"Golem" ,character_class: "Rock", hp: 500, attack: 60, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 5)
 
-Character.create(character_name:"Evil Sheep" ,character_class: "Animal", hp: 300, attack: 30, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 6)
+# Character.create(character_name:"Evil Sheep" ,character_class: "Animal", hp: 300, attack: 30, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 6)
 
-Character.create(character_name:"Farmer" ,character_class: "Person", hp: 400, attack: 50, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 6)
+# Character.create(character_name:"Farmer" ,character_class: "Person", hp: 400, attack: 50, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 6)
 
-Character.create(character_name:"Skeleton" ,character_class: "Undead", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 7)
+# Character.create(character_name:"Skeleton" ,character_class: "Undead", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 7)
 
-Character.create(character_name:"Skeleton" ,character_class: "Undead", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 7)
+# Character.create(character_name:"Skeleton" ,character_class: "Undead", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 7)
 
-Character.create(character_name:"Skeleton" ,character_class: "Undead", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 7)
+# Character.create(character_name:"Skeleton" ,character_class: "Undead", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 7)
 
-Character.create(character_name:"Skeleton" ,character_class: "Undead", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 7)
+# Character.create(character_name:"Skeleton" ,character_class: "Undead", hp: 200, attack: 20, defense: 20, magic_attack: 20, magic_defense: 20, str: 20, int: 20, dex: 20, vit: 20, luk: 20, helm: "", l_hand: "", r_hand: "", body_armor: "", gloves: "", shoes: "", leg_armor: "", is_npc: true, alive: true, enemy_set: 7)
 
 # Game.create(
 #   user_id: 1,
@@ -149,16 +149,71 @@ Character.create(character_name:"Skeleton" ,character_class: "Undead", hp: 200, 
 #   magic_defense: 5
 #   )
 
-# Item.create(
-#   item_type: "Armor",
-#   name: "Gloves",
-#   cure_status: "None",
-#   recovery_amount: 0,
-#   attack: 0,
-#   defense: 5,
-#   magic_attack: 0,
-#   magic_defense: 5
-#   )
+Item.create(
+  item_type: "Item",
+  name: "Golden Nugget",
+  cure_status: "None",
+  recovery_amount: 0,
+  attack: 0,
+  defense: 5,
+  magic_attack: 0,
+  magic_defense: 5
+  )
+
+Item.create(
+  item_type: "Weapon",
+  name: "Elven Sword",
+  cure_status: "None",
+  recovery_amount: 0,
+  attack: 0,
+  defense: 5,
+  magic_attack: 0,
+  magic_defense: 5
+  )
+
+Item.create(
+  item_type: "Item",
+  name: "Magic Crystal",
+  cure_status: "None",
+  recovery_amount: 0,
+  attack: 0,
+  defense: 5,
+  magic_attack: 0,
+  magic_defense: 5
+  )
+
+Item.create(
+  item_type: "Item",
+  name: "Lantern",
+  cure_status: "None",
+  recovery_amount: 0,
+  attack: 0,
+  defense: 5,
+  magic_attack: 0,
+  magic_defense: 5
+  )
+
+Item.create(
+  item_type: "Item",
+  name: "Cloth",
+  cure_status: "None",
+  recovery_amount: 0,
+  attack: 0,
+  defense: 5,
+  magic_attack: 0,
+  magic_defense: 5
+  )
+
+Item.create(
+  item_type: "Item",
+  name: "Bottle",
+  cure_status: "None",
+  recovery_amount: 0,
+  attack: 0,
+  defense: 5,
+  magic_attack: 0,
+  magic_defense: 5
+  )
 
 # CharacterItem.create(
 #   character_id: 1,
