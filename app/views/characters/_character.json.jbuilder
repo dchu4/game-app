@@ -17,3 +17,6 @@ json.gloves character.gloves
 json.shoes character.shoes
 json.leg_armor character.leg_armor
 json.is_npc character.is_npc
+json.alive character.alive
+json.enemy_set character.enemy_set
+json.hp character.hp

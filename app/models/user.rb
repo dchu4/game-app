@@ -5,6 +5,5 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :games
-  has_many :game_boards, through: :games
   has_many :characters, through: :games
 end

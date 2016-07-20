@@ -11,115 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160714012429) do
+ActiveRecord::Schema.define(version: 20160719133912) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "boards", force: :cascade do |t|
-    t.string   "tile_1"
-    t.string   "tile_2"
-    t.string   "tile_3"
-    t.string   "tile_4"
-    t.string   "tile_5"
-    t.string   "tile_6"
-    t.string   "tile_7"
-    t.string   "tile_8"
-    t.string   "tile_9"
-    t.string   "tile_10"
-    t.string   "tile_11"
-    t.string   "tile_12"
-    t.string   "tile_13"
-    t.string   "tile_14"
-    t.string   "tile_15"
-    t.string   "tile_16"
-    t.string   "tile_17"
-    t.string   "tile_18"
-    t.string   "tile_19"
-    t.string   "tile_20"
-    t.string   "tile_21"
-    t.string   "tile_22"
-    t.string   "tile_23"
-    t.string   "tile_24"
-    t.string   "tile_25"
-    t.string   "tile_26"
-    t.string   "tile_27"
-    t.string   "tile_28"
-    t.string   "tile_29"
-    t.string   "tile_30"
-    t.string   "tile_31"
-    t.string   "tile_32"
-    t.string   "tile_33"
-    t.string   "tile_34"
-    t.string   "tile_35"
-    t.string   "tile_36"
-    t.string   "tile_37"
-    t.string   "tile_38"
-    t.string   "tile_39"
-    t.string   "tile_40"
-    t.string   "tile_41"
-    t.string   "tile_42"
-    t.string   "tile_43"
-    t.string   "tile_44"
-    t.string   "tile_45"
-    t.string   "tile_46"
-    t.string   "tile_47"
-    t.string   "tile_48"
-    t.string   "tile_49"
-    t.string   "tile_50"
-    t.string   "tile_51"
-    t.string   "tile_52"
-    t.string   "tile_53"
-    t.string   "tile_54"
-    t.string   "tile_55"
-    t.string   "tile_56"
-    t.string   "tile_57"
-    t.string   "tile_58"
-    t.string   "tile_59"
-    t.string   "tile_60"
-    t.string   "tile_61"
-    t.string   "tile_62"
-    t.string   "tile_63"
-    t.string   "tile_64"
-    t.string   "tile_65"
-    t.string   "tile_66"
-    t.string   "tile_67"
-    t.string   "tile_68"
-    t.string   "tile_69"
-    t.string   "tile_70"
-    t.string   "tile_71"
-    t.string   "tile_72"
-    t.string   "tile_73"
-    t.string   "tile_74"
-    t.string   "tile_75"
-    t.string   "tile_76"
-    t.string   "tile_77"
-    t.string   "tile_78"
-    t.string   "tile_79"
-    t.string   "tile_80"
-    t.string   "tile_81"
-    t.string   "tile_82"
-    t.string   "tile_83"
-    t.string   "tile_84"
-    t.string   "tile_85"
-    t.string   "tile_86"
-    t.string   "tile_87"
-    t.string   "tile_88"
-    t.string   "tile_89"
-    t.string   "tile_90"
-    t.string   "tile_91"
-    t.string   "tile_92"
-    t.string   "tile_93"
-    t.string   "tile_94"
-    t.string   "tile_95"
-    t.string   "tile_96"
-    t.string   "tile_97"
-    t.string   "tile_98"
-    t.string   "tile_99"
-    t.string   "tile_100"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "character_items", force: :cascade do |t|
     t.integer  "character_id"
@@ -154,13 +49,7 @@ ActiveRecord::Schema.define(version: 20160714012429) do
     t.string   "character_name"
     t.boolean  "alive"
     t.integer  "hp"
-  end
-
-  create_table "game_boards", force: :cascade do |t|
-    t.integer  "board_id"
-    t.integer  "game_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "enemy_set"
   end
 
   create_table "games", force: :cascade do |t|
@@ -171,7 +60,16 @@ ActiveRecord::Schema.define(version: 20160714012429) do
   end
 
   create_table "items", force: :cascade do |t|
-     
+    t.string   "item_type"
+    t.string   "cure_status"
+    t.integer  "attack"
+    t.integer  "defense"
+    t.integer  "magic_attack"
+    t.integer  "magic_defense"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.integer  "recovery_amount"
+    t.string   "name"
   end
 
   create_table "users", force: :cascade do |t|

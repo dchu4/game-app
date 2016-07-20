@@ -100,12 +100,6 @@ class CharactersController < ApplicationController
 
     new_game = Game.create(user_id: current_user.id, character_id: @character.id)
 
-    new_game_board = GameBoard.create(board_id: 1, game_id: new_game.id)
-    new_game_board = GameBoard.create(board_id: 2, game_id: new_game.id)
-    new_game_board = GameBoard.create(board_id: 3, game_id: new_game.id)
-    new_game_board = GameBoard.create(board_id: 4, game_id: new_game.id)
-    new_game_board = GameBoard.create(board_id: 5, game_id: new_game.id)
-
     redirect_to "/characters/#{@character.id}"
   end
 

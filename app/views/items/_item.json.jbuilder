@@ -6,3 +6,4 @@ json.attack item.attack
 json.defense item.defense
 json.magic_attack item.magic_attack
 json.magic_defense item.magic_defense
+json.id item.id

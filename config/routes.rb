@@ -19,8 +19,4 @@ Rails.application.routes.draw do
   patch '/items/:id' => 'items#update'
 
 #############################################
-
-  get '/boards' => 'boards#index'
-  get '/boards/:id' => 'boards#show'
-
 end

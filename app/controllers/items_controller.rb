@@ -2,7 +2,8 @@ class ItemsController < ApplicationController
   def index
     @selected_character = params[:selected_character]
 
-    @character_items = current_user.games.find_by(character_id: @selected_character).character.items
+    # @character_items = current_user.games.find_by(character_id: @selected_character).character.items
+    @character_items = Item.all
 
     # @armor_items = character_items.where(item_type: "Armor")
 
